@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3224F02151EC41F0007F36E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3224F01151EC41F0007F36E /* UIKit.framework */; };
+		F3224F04151EC41F0007F36E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3224F03151EC41F0007F36E /* Foundation.framework */; };
+		F3224F06151EC41F0007F36E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3224F05151EC41F0007F36E /* CoreGraphics.framework */; };
+		F3224F0C151EC41F0007F36E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3224F0A151EC41F0007F36E /* InfoPlist.strings */; };
+		F3224F0E151EC41F0007F36E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3224F0D151EC41F0007F36E /* main.m */; };
+		F3224F12151EC41F0007F36E /* edu_osuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3224F11151EC41F0007F36E /* edu_osuAppDelegate.m */; };
+		F3224F15151EC41F0007F36E /* edu_osuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3224F14151EC41F0007F36E /* edu_osuViewController.m */; };
+		F3224F18151EC41F0007F36E /* edu_osuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3224F16151EC41F0007F36E /* edu_osuViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3224EFD151EC41F0007F36E /* iOSOsuEventsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSOsuEventsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3224F01151EC41F0007F36E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3224F03151EC41F0007F36E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3224F05151EC41F0007F36E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3224F09151EC41F0007F36E /* iOSOsuEventsApp-Info.plist */ = {isa = PBXFileReference; path = "iOSOsuEventsApp-Info.plist"; sourceTree = "<group>"; };
+		F3224F0B151EC41F0007F36E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3224F0D151EC41F0007F36E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3224F0F151EC41F0007F36E /* iOSOsuEventsApp-Prefix.pch */ = {isa = PBXFileReference; path = "iOSOsuEventsApp-Prefix.pch"; sourceTree = "<group>"; };
+		F3224F10151EC41F0007F36E /* edu_osuAppDelegate.h */ = {isa = PBXFileReference; path = edu_osuAppDelegate.h; sourceTree = "<group>"; };
+		F3224F11151EC41F0007F36E /* edu_osuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = edu_osuAppDelegate.m; sourceTree = "<group>"; };
+		F3224F13151EC41F0007F36E /* edu_osuViewController.h */ = {isa = PBXFileReference; path = edu_osuViewController.h; sourceTree = "<group>"; };
+		F3224F14151EC41F0007F36E /* edu_osuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = edu_osuViewController.m; sourceTree = "<group>"; };
+		F3224F17151EC41F0007F36E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/edu_osuViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3224EFA151EC41F0007F36E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3224F02151EC41F0007F36E /* UIKit.framework in Frameworks */,
+				F3224F04151EC41F0007F36E /* Foundation.framework in Frameworks */,
+				F3224F06151EC41F0007F36E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3224EF2151EC41F0007F36E = {
+			isa = PBXGroup;
+			children = (
+				F3224F07151EC41F0007F36E /* iOSOsuEventsApp */,
+				F3224F00151EC41F0007F36E /* Frameworks */,
+				F3224EFE151EC41F0007F36E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3224EFE151EC41F0007F36E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3224EFD151EC41F0007F36E /* iOSOsuEventsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3224F00151EC41F0007F36E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3224F01151EC41F0007F36E /* UIKit.framework */,
+				F3224F03151EC41F0007F36E /* Foundation.framework */,
+				F3224F05151EC41F0007F36E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3224F07151EC41F0007F36E /* iOSOsuEventsApp */ = {
+			isa = PBXGroup;
+			children = (
+				F3224F10151EC41F0007F36E /* edu_osuAppDelegate.h */,
+				F3224F11151EC41F0007F36E /* edu_osuAppDelegate.m */,
+				F3224F13151EC41F0007F36E /* edu_osuViewController.h */,
+				F3224F14151EC41F0007F36E /* edu_osuViewController.m */,
+				F3224F16151EC41F0007F36E /* edu_osuViewController.xib */,
+				F3224F08151EC41F0007F36E /* Supporting Files */,
+			);
+			path = iOSOsuEventsApp;
+			sourceTree = "<group>";
+		};
+		F3224F08151EC41F0007F36E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3224F09151EC41F0007F36E /* iOSOsuEventsApp-Info.plist */,
+				F3224F0A151EC41F0007F36E /* InfoPlist.strings */,
+				F3224F0D151EC41F0007F36E /* main.m */,
+				F3224F0F151EC41F0007F36E /* iOSOsuEventsApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3224EFC151EC41F0007F36E /* iOSOsuEventsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3224F1B151EC41F0007F36E /* Build configuration list for PBXNativeTarget "iOSOsuEventsApp" */;
+			buildPhases = (
+				F3224EF9151EC41F0007F36E /* Sources */,
+				F3224EFA151EC41F0007F36E /* Frameworks */,
+				F3224EFB151EC41F0007F36E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSOsuEventsApp;
+			productName = iOSOsuEventsApp;
+			productReference = F3224EFD151EC41F0007F36E /* iOSOsuEventsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3224EF4151EC41F0007F36E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "The Ohio State University";
+			};
+			buildConfigurationList = F3224EF7151EC41F0007F36E /* Build configuration list for PBXProject "iOSOsuEventsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3224EF2151EC41F0007F36E;
+			productRefGroup = F3224EFE151EC41F0007F36E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3224EFC151EC41F0007F36E /* iOSOsuEventsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3224EFB151EC41F0007F36E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3224F0C151EC41F0007F36E /* InfoPlist.strings in Resources */,
+				F3224F18151EC41F0007F36E /* edu_osuViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3224EF9151EC41F0007F36E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3224F0E151EC41F0007F36E /* main.m in Sources */,
+				F3224F12151EC41F0007F36E /* edu_osuAppDelegate.m in Sources */,
+				F3224F15151EC41F0007F36E /* edu_osuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3224F0A151EC41F0007F36E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3224F0B151EC41F0007F36E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3224F16151EC41F0007F36E /* edu_osuViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3224F17151EC41F0007F36E /* en */,
+			);
+			name = edu_osuViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3224F19151EC41F0007F36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3224F1A151EC41F0007F36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3224F1C151EC41F0007F36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSOsuEventsApp/iOSOsuEventsApp-Prefix.pch";
+				INFOPLIST_FILE = "iOSOsuEventsApp/iOSOsuEventsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3224F1D151EC41F0007F36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSOsuEventsApp/iOSOsuEventsApp-Prefix.pch";
+				INFOPLIST_FILE = "iOSOsuEventsApp/iOSOsuEventsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3224EF7151EC41F0007F36E /* Build configuration list for PBXProject "iOSOsuEventsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3224F19151EC41F0007F36E /* Debug */,
+				F3224F1A151EC41F0007F36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3224F1B151EC41F0007F36E /* Build configuration list for PBXNativeTarget "iOSOsuEventsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3224F1C151EC41F0007F36E /* Debug */,
+				F3224F1D151EC41F0007F36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3224EF4151EC41F0007F36E /* Project object */;
+}
